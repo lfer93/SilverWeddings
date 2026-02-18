@@ -1,0 +1,76 @@
+/* =========================================================
+   globals.scss
+   - Estilos globales del proyecto
+   - Aquí cargamos fuentes (@font-face) y definimos variables
+   - Esto evita repetir estilos en cada componente
+   ========================================================= */
+
+/* 1) Cargamos las tipografías desde /src/assets/fonts
+   Nota: usamos .woff2 porque pesa menos y carga más rápido */
+@font-face {
+    font-family: "Typhone";
+    src: url("../assets/fonts/Typhone-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    /* swap = muestra texto rápido y cambia a la fuente cuando carga */
+}
+
+@font-face {
+    font-family: "Sloop Script Pro";
+    src: url("../assets/fonts/SloopScriptPro-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "TT Commons Pro";
+    src: url("../assets/fonts/TTCOMMONS-light.woff2") format("woff2");
+    font-weight: 300;
+    /* Light */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 2) Variables CSS para colores de marca
+   - Esto ayuda a reutilizar la paleta incluso fuera de MUI (ej: fondos, gradientes) */
+:root {
+    /* Principales */
+    --sw-mar: #3c7f90;
+    --sw-novia: #fffddb;
+    --sw-diamante: #d0d6db;
+
+    /* Secundarios */
+    --sw-cielo: #c5eded;
+    --sw-arena: #d1b78f;
+    --sw-tuxedo: #2a3135;
+}
+
+/* 3) Estilos base del documento */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+
+    /* Fondo general “Novia” para sensación cálida/elegante */
+    background: var(--sw-novia);
+
+    /* Fuente principal del cuerpo: TT Commons Pro Light */
+    font-family: "TT Commons Pro", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+    /* Color de texto principal */
+    color: var(--sw-tuxedo);
+
+    /* Mejor lectura en pantallas */
+    line-height: 1.6;
+}
+
+/* Evita scroll horizontal accidental (muy común con 100vw + transform) */
+html,
+body {
+    overflow-x: hidden;
+}
