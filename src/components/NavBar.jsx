@@ -31,15 +31,15 @@ import logo from "../assets/logo/silver-weddings-logo.png";
  */
 export default function Navbar() {
     /* ---------------------------------------------------------
-       1) Estado del Drawer (menú móvil)
-       - open = true/false para mostrar/ocultar el menú lateral
+        1) Estado del Drawer (menú móvil)
+        - open = true/false para mostrar/ocultar el menú lateral
     --------------------------------------------------------- */
     const [open, setOpen] = useState(false);
 
     /* ---------------------------------------------------------
-       2) location:
-       - Lo usamos para cerrar el Drawer cuando el usuario navega.
-       - Esto evita que el menú se quede abierto después de dar click.
+        2) location:
+        - Lo usamos para cerrar el Drawer cuando el usuario navega.
+        - Esto evita que el menú se quede abierto después de dar click.
     --------------------------------------------------------- */
     const location = useLocation();
 
@@ -61,9 +61,9 @@ export default function Navbar() {
     ];
 
     /* ---------------------------------------------------------
-       3) Cierra el Drawer cuando cambia la ruta
-       - UX: al tocar un link, el Drawer debe cerrarse automáticamente.
-       - NOTA: en React Router, location cambia con la navegación.
+        3) Cierra el Drawer cuando cambia la ruta
+        - UX: al tocar un link, el Drawer debe cerrarse automáticamente.
+        - NOTA: en React Router, location cambia con la navegación.
     --------------------------------------------------------- */
     // OJO: no usamos useEffect para mantenerlo simple.
     // En este caso, al hacer click en un item, cerramos manualmente.
@@ -104,7 +104,7 @@ export default function Navbar() {
                     />
 
                     {/* Descriptor:
-              - En móvil lo ocultamos para no saturar el navbar
+            - En móvil lo ocultamos para no saturar el navbar
               - En desktop lo mostramos para reforzar la marca */}
                     <Typography
                         sx={{

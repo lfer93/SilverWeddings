@@ -2,7 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { Box, Container } from "@mui/material";
 import { useRef } from "react";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import PageTransition from "../components/PageTransition";
 import ScrollToTop from "../components/routing/ScrollToTop";
