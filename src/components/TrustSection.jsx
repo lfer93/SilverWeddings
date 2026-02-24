@@ -54,18 +54,18 @@ export default function TrustSection() {
     const testimonials = [
         {
             quote:
-                "Nos sentimos acompañados en todo momento. La planeación fue súper clara y sin estrés.",
-            name: "Pareja, Saltillo",
+                "Waaaaa!!! No saben lo agradecidos que estamos por la experiencia tan increíble que vivimos! Hicieron de nuestra boda de ensueño en realidad! Gracias por la atención y el apoyo en cada situación, de verdad que no pudimos elegir mejores manos para llevar el proceso de nuestra boda… Gracias infinitas",
+            name: "Boda Ceci y Javier - Moon Palace, Cancún",
         },
         {
             quote:
-                "Todo estuvo cuidado al detalle. Solo disfrutamos el viaje y el día fue perfecto.",
-            name: "Pareja, Monterrey",
+                "Gracias por escucharnos, guiarnos y convertir nuestras ideas en una realidad más hermosa de lo que imaginamos. Su profesionalismo, paciencia y creatividad hicieron que este proceso fuera mucho mas ligero y emocionante. Gracias por acompañarnos en cada etapa. Nos sentimos inmensamente afortunados de haber contado con ustedes. Gracias por hacerlo posible y dejar una huella tan especial en este capitulo de nuestras vidas",
+            name: "Ámbar y Oziel",
         },
         {
             quote:
-                "Nos ayudaron a elegir destino, hotel y logística. Fue nuestra primera gran aventura juntos.",
-            name: "Pareja, México",
+                "Nuestra boda fue uno de los días mas importantes en nuestra vida, ponerla en manos de Silver Weddings fue definitivamente la mejor decisión! Desde el momento que nos presentaron las opciones, Jose Pablo y Oscar lo hicieron de una manera que era inevitable que nos contagiaran la emoción, fue tan bonita su presentación, que en esa misma llamada decidimos trabajar con ellos. Nos brindaron apoyo y acompañamiento que nos hicieron sentir cobijados y con la certeza de que todo estaría bien. Definitivamente recomendamos poner un día tan importante en manos del mejor equipo, Silver Weddings, gracias por darnos tan increible experiencia",
+            name: "Ana Iris y Raúl",
         },
     ];
 
