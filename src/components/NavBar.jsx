@@ -55,7 +55,7 @@ export default function Navbar() {
      */
     const navItems = [
         { label: "Inicio", to: "/" },
-        { label: "Bodas destino", to: "/bodas" },
+        { label: "Eventos Destino", to: "/bodas" },
         { label: "Destinos", to: "/destinos" },
         { label: "Nosotros", to: "/nosotros" },
     ];
