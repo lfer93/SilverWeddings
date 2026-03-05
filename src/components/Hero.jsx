@@ -1,7 +1,7 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import heroImage from "../assets/images/hero-beach-wedding.jpg";
+import heroImage from "../assets/images/hero-beach-wedding.webp";
 
 /**
  * Hero.jsx (v2)

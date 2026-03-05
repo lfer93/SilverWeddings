@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
 // Imagen del hero (recomendada: playa premium + mood editorial, NO altar literal)
-import heroImg from "../../assets/images/events/events-hero.jpg";
+import heroImg from "../../assets/images/events/events-hero.webp";
 
 /**
  * EventsDestinationHero.jsx
